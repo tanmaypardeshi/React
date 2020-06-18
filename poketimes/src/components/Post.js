@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { deletePost } from '../actions/postActions';
 
+
 class Post extends React.Component {
     handleClick = () => {
         this.props.deletePost(this.props.post.id);
